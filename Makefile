@@ -12,7 +12,7 @@ down: .env
 	docker compose down
 
 install:
-	echo SRC: $(SRC)
-	echo src: $(src)
+	echo make src: $(src)
+	echo make out: $(out)
 
 # vim: set ft=make :
