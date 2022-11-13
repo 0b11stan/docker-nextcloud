@@ -11,10 +11,4 @@ up: .env
 down: .env
 	docker compose down
 
-install:
-#	echo make src: $(src)
-#	echo make out: $(out)
-#	echo 'docker compose up -p $(name) -f $(src)/docker-compose.yml -d' \
-		> $(out)/docker-nextcloud.sh
-
 # vim: set ft=make :
