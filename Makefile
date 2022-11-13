@@ -11,4 +11,8 @@ up: .env
 down: .env
 	docker compose down
 
+install:
+	echo SRC: $(SRC)
+	echo src: $(src)
+
 # vim: set ft=make :
